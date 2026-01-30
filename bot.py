@@ -8,7 +8,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.getenv("8318110132:AAHzuRX8LqezVrj14We88ZXawhDorkQ6YYI")
+BOT_TOKEN = os.getenv("8318110132:AAHUrUoRf7IUduiq0-2SWd4VGV8YxptK3Ow")
 AMAZON_TAG = "akash-21"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -39,3 +39,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
